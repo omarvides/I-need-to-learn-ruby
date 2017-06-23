@@ -4,4 +4,4 @@ Because I still don't know Ruby
 
 ## Files
 
-* [inheritance.rb] (inheritance.rb)
+* [inheritance.rb] (i-need-to-learn-ruby/inheritance.rb)
