@@ -19,4 +19,14 @@ snake.gender = "F"
 snake.color = "Green"
 snake.length = 1
 
+puts "Snake pet:"
 puts "Name: " + snake.name, "Age: " + snake.age.to_s, "Gender: " + snake.gender.to_s, "Color: " + snake.color.to_s, "Length: " + snake.length.to_s
+
+dog = Dog.new
+dog.name = "Doggo"
+dog.age = 3
+dog.gender = "M"
+
+puts ""
+puts "Dog pet"
+puts "Name: " + dog.name, "Age: " + dog.age.to_s, "Gender: " + dog.gender.to_s
