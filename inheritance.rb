@@ -1,15 +1,21 @@
 class Pet
-  attr_accessor :name, :age, :gender, :color 
+  attr_accessor :name, :age, :gender, :color
+
 end
 
 class Cat < Pet
 end
 
 class Dog < Pet
+  def bark
+    return "Woof!"
+  end
+  
 end
 
 class Snake < Pet
   attr_accessor :length
+  
 end
 
 snake = Snake.new
@@ -30,3 +36,4 @@ dog.gender = "M"
 puts ""
 puts "Dog pet"
 puts "Name: " + dog.name, "Age: " + dog.age.to_s, "Gender: " + dog.gender.to_s
+puts "My dog says: " + dog.bark
